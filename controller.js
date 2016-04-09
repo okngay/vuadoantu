@@ -1,1 +1,488 @@
-var _0xc0f5=["\x3C\x74\x72\x2F\x3E","\x72\x61\x6E\x64\x6F\x6D","\x6C\x65\x6E\x67\x74\x68","\x66\x6C\x6F\x6F\x72","\x6E\x61\x6D\x65","\x76\x61\x6C","\x20\x28\x20","\x20\x29","\x74\x65\x78\x74","\x3C\x65\x6D\x2F\x3E","\x61\x70\x70\x65\x6E\x64","\x3C\x74\x64\x2F\x3E","\x73\x63\x6F\x72\x65","\x6B\x65\x79","\x23\x6C\x65\x61\x64\x65\x72\x62\x6F\x61\x72\x64\x54\x61\x62\x6C\x65","\x62\x65\x66\x6F\x72\x65","\x72\x65\x6D\x6F\x76\x65","\x67\x6F\x4F\x6E\x6C\x69\x6E\x65","\x68\x69\x64\x65","\x23\x73\x65\x6E\x74\x73\x63\x6F\x72\x65","\x63\x68\x69\x6C\x64","\x73\x65\x74\x57\x69\x74\x68\x50\x72\x69\x6F\x72\x69\x74\x79","\x74\x72\x61\x6E\x73\x61\x63\x74\x69\x6F\x6E","\u0110\xE3\x20\x67\u1EED\x69\x20","\x20\u0111\x69\u1EC3\x6D\x20\x6C\xEA\x6E\x20\x53\x61\x6F\x20\x48\u1ECF\x61\x20\x2D\x2D\x20\u25CB\x20\u25CB\x20\u25CB\x20","\x6C\x6F\x67","\x67\x6F\x4F\x66\x66\x6C\x69\x6E\x65","\x30\x20\u0110\x69\u1EC3\x6D\x20\x67\u1EED\x69\x20\x6C\xE0\x6D\x20\x67\xEC\x20\x3A\x76\x20","","\x4B\x69\x6E\x68\x20\x63\x68\u01B0\x61\x21\x20\u26A1","\x51\x75\xE1\x20\u0111\u1EC9\x6E\x68\x20\u270C\x20","\x54\x68\u01B0\u1EDD\x6E\x67\x20\x54\x68\xF4\x69\x20\u2615","\x56\xE0\x6F\x20\u0111\u01B0\u1EE3\x63\x20\x42\x58\x48\x20\x72\u1ED3\x69\x20\x5E\x5E\x20","\x4C\x61\x20\x6C\x61\x20\x6C\x61\x20\u2764","\x53\u1EAF\x70\x20\x76\xF4\x20\u0111\u1ED1\x69\x20\u2708\uFE0F","\x4E\x68\xEC\x6E\x20\x6E\xE8\x20\u30C4\x20","\x56\u01B0\u1EE3\x74\x20\x71\x75\x61\x20\u0111\x69\x20\u261D\x20","\x51\x75\x61\x20\x72\u1ED3\x69\x20\x6E\xE8\x20\u263A","\x54\x68\u01B0\u1EDD\x6E\x67\x20\x54\x68\xF4\x69\x20\u2604\x20","\x4D\xEC\x6E\x68\x20\x73\u1EBD\x20\x6E\x68\u1EA5\x74\x20\u27B9","\x43\xF2\x6E\x20\x63\x61\x6F\x20\x6E\u1EEF\x61","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x73\x74\x61\x72\x74\x42\x75\x74\x74\x6F\x6E\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x67\x72\x65\x65\x6E\x20\x77\x68\x69\x74\x65\x2D\x74\x65\x78\x74\x20\x63\x61\x72\x64\x20\x68\x6F\x76\x65\x72\x61\x62\x6C\x65\x20\x61\x6E\x69\x6D\x61\x74\x65\x64\x20\x62\x6F\x75\x6E\x63\x65\x49\x6E\x44\x6F\x77\x6E\x20\x63\x65\x6E\x74\x65\x72\x22\x3E\x20\x20\x20\x3C\x68\x32\x3E\x3C\x62\x72\x3E\x20\x42\u1EAF\x74\x20\u0111\u1EA7\x75\x20\x6E\xE0\x6F\x20\x21\x3C\x2F\x68\x32\x3E\x3C\x62\x72\x3E\x20\x3C\x2F\x64\x69\x76\x3E","\x23\x67\x61\x6D\x65\x43\x6F\x6E\x74\x65\x6E\x74","\x63\x6C\x69\x63\x6B","\x6F\x6E","\x23\x73\x74\x61\x72\x74\x42\x75\x74\x74\x6F\x6E","\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x6E\x61\x6D\x65\x66\x62","\x43\x68\xE0\x6F\x20\x62\u1EA1\x6E\x20\x74\x72\u1EDF\x20\x6C\u1EA1\x69\x3A\x20\x20","\x23\x66\x62\x6F\x6B","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x68\x61\x6E\x67\x6D\x61\x6E\x2D\x76\x74\x63\x2E\x66\x69\x72\x65\x62\x61\x73\x65\x69\x6F\x2E\x63\x6F\x6D","\x66\x61\x63\x65\x62\x6F\x6F\x6B","\x46\x4B\x20\x46\x61\x6C\x73\x65\x21","\x46\x42\x20\x4F\x4B\x21","\x64\x69\x73\x70\x6C\x61\x79\x4E\x61\x6D\x65","\x43\x68\xE0\x6F\x3A\x20\x20","\x73\x65\x73\x73\x69\x6F\x6E\x4F\x6E\x6C\x79","\x61\x75\x74\x68\x57\x69\x74\x68\x4F\x41\x75\x74\x68\x50\x6F\x70\x75\x70","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x72\x65\x73\x75\x6C\x74","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x53\x6F\x72\x72\x79\x2C\x20\x79\x6F\x75\x72\x20\x62\x72\x6F\x77\x73\x65\x72\x20\x64\x6F\x65\x73\x20\x6E\x6F\x74\x20\x73\x75\x70\x70\x6F\x72\x74\x20\x77\x65\x62\x20\x73\x74\x6F\x72\x61\x67\x65\x2E\x2E\x2E","\x67\x6F","\x20\x20\x20\x2D\x2D\x20\x20\x20\x20\x20\x20\x48\u1EBF\x74\x20\x67\x69\u1EDD\x21\x21\x21\x20\x20\x20\x20\x20\x20\x2D\x2D\x20\x0A\x20","\x20\x3A\x20","\x20\u0110\x69\u1EC3\x6D\x20\x0A\x20\u0110\x69\u1EC3\x6D\x20\x63\u1EE7\x61\x20\x62\u1EA1\x6E\x20\u0111\xE3\x20\u0111\u01B0\u1EE3\x63\x20\x67\u1EED\x69\x20\x6C\xEA\x6E\x20\x42\x58\x48\x20\x0A","\x23\x73\x70\x61\x63\x65","\x65\x6D\x70\x74\x79","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x73\x63\x6F\x72\x65\x69\x64\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x65\x6E\x74\x65\x72\x22\x3E\x3C\x68\x33\x20\x63\x6C\x61\x73\x73\x3D\x22\x72\x65\x64\x20\x63\x61\x72\x64\x20\x20\x77\x68\x69\x74\x65\x2D\x74\x65\x78\x74\x20\x22\x3E\x20\u0110\x69\u1EC3\x6D\x20\x73\u1ED1\x3A\x20","\x3C\x2F\x68\x33\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x70\x69\x78\x48\x6F\x6C\x64\x65\x72\x22\x3E\x3C\x69\x6D\x67\x20\x69\x64\x3D\x22\x68\x61\x6E\x67\x6D\x61\x6E\x22\x20\x73\x72\x63\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x69\x6D\x67\x75\x72\x2E\x63\x6F\x6D\x2F\x58\x38\x33\x65\x74\x42\x4D\x2E\x70\x6E\x67\x22\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x63\x6C\x75\x65\x48\x6F\x6C\x64\x65\x72\x22\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x77\x6F\x72\x64\x48\x6F\x6C\x64\x65\x72\x22\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x67\x75\x65\x73\x73\x65\x73\x22\x3E\x20\x3C\x68\x34\x20\x63\x6C\x61\x73\x73\x3D\x22\x77\x68\x69\x74\x65\x2D\x74\x65\x78\x74\x20\x63\x65\x6E\x74\x65\x72\x22\x3E\x20\x43\x68\u1EEF\x20\u0111\x6F\xE1\x6E\x20\x73\x61\x69\x20\x3C\x2F\x68\x34\x3E\x20\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x66\x65\x65\x64\x62\x61\x63\x6B\x22\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x73\x65\x6E\x74\x73\x63\x6F\x72\x65\x22\x3E\x3C\x2F\x64\x69\x76\x3E","\x4B\xFD\x20\x74\u1EF1\x3A\x20","\x3C\x68\x33\x20\x63\x6C\x61\x73\x73\x3D\x22\x77\x68\x69\x74\x65\x20\x62\x74\x6E\x2D\x6C\x61\x72\x67\x65\x20\x62\x6C\x61\x63\x6B\x2D\x74\x65\x78\x74\x22\x20\x69\x64\x3D\x74","\x3E\x3C\x2F\x68\x33\x3E\x20","\x23\x77\x6F\x72\x64\x48\x6F\x6C\x64\x65\x72","\x3C\x68\x33\x20\x63\x6C\x61\x73\x73\x3D\x20\x27\x77\x68\x69\x74\x65\x2D\x74\x65\x78\x74\x27\x3E\x47\u1EE3\x69\x20\xFD\x3A\x20","\x3C\x2F\x68\x33\x3E","\x23\x63\x6C\x75\x65\x48\x6F\x6C\x64\x65\x72","\x6B\x65\x79\x75\x70","\x73\x74\x79\x6C\x65","\x77\x69\x64\x74\x68\x3A\x20\x30\x25","\x61\x74\x74\x72","\x23\x62\x61\x72","\x77\x69\x64\x74\x68\x3A\x20","\x25","\x54\u1EEB\x3A\x20","\x73\x70\x6C\x69\x74","\x72\x64\x6E\x3A\x20","\x54\u1EEB\x20\x62\u0103\x6D\x3A\x20\x20","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x68\x61\x6E\x67\x6D\x61\x6E\x2D\x76\x74\x63\x2E\x66\x69\x72\x65\x62\x61\x73\x65\x69\x6F\x2E\x63\x6F\x6D\x2F\x2F\x63\x61\x75\x68\x6F\x69\x2F\x2F\x77\x6F\x72\x64\x6C\x69\x73\x74\x2F\x2F","\x76\x61\x6C\x75\x65","\x6E\x75\x6D\x43\x68\x69\x6C\x64\x72\x65\x6E","\x3E","\x63\x6C\x75\x65","\x77\x6F\x72\x64","\x6F\x6E\x63\x65","\x6B\x65\x79\x43\x6F\x64\x65","\x74\x6F\x4C\x6F\x77\x65\x72\x43\x61\x73\x65","\x66\x72\x6F\x6D\x43\x68\x61\x72\x43\x6F\x64\x65","\x70\x75\x73\x68","\x23\x74","\x70\x78","\x3C\x68\x34\x20\x63\x6C\x61\x73\x73\x3D\x27\x72\x65\x64\x20\x62\x74\x6E\x20\x77\x68\x69\x74\x65\x2D\x74\x65\x78\x74\x27\x20\x3E\x20","\x3C\x2F\x68\x34\x3E\x20","\x23\x67\x75\x65\x73\x73\x65\x73","\x6C\x65\x66\x74","\x63\x73\x73","\x23\x68\x61\x6E\x67\x6D\x61\x6E","\x6F\x66\x66","\x3C\x68\x33\x20\x63\x6C\x61\x73\x73\x3D\x27\x77\x68\x69\x74\x65\x2D\x74\x65\x78\x74\x20\x63\x65\x6E\x74\x65\x72\x27\x3E\x20\u0110\xFA\x6E\x67\x20\x52\u1ED3\x69\x21\x20\x3C\x2F\x68\x33\x3E\x20\x3C\x62\x72\x3E\x3C\x64\x69\x76\x20\x69\x64\x3D\x27\x6E\x65\x78\x74\x6C\x76\x27\x20\x63\x6C\x61\x73\x73\x3D\x27\x67\x72\x65\x65\x6E\x20\x63\x61\x72\x64\x20\x68\x6F\x76\x65\x72\x61\x62\x6C\x65\x20\x61\x6E\x69\x6D\x61\x74\x65\x64\x20\x62\x6F\x75\x6E\x63\x65\x49\x6E\x52\x69\x67\x68\x74\x20\x77\x68\x69\x74\x65\x2D\x74\x65\x78\x74\x20\x63\x65\x6E\x74\x65\x72\x27\x3E\x20\x3C\x68\x33\x3E\x20\x54\x69\u1EBF\x70\x20\x54\u1EE5\x63\x20\x3C\x2F\x68\x33\x3E\x20\x3C\x2F\x64\x69\x76\x3E","\x23\x66\x65\x65\x64\x62\x61\x63\x6B","\x23\x6E\x65\x78\x74\x6C\x76","\x3C\x64\x69\x76\x20\x69\x64\x3D\x27\x73\x65\x6E\x74\x66\x62\x27\x20\x63\x6C\x61\x73\x73\x3D\x27\x74\x65\x61\x6C\x20\x63\x61\x72\x64\x20\x68\x6F\x76\x65\x72\x61\x62\x6C\x65\x20\x61\x6E\x69\x6D\x61\x74\x65\x64\x20\x62\x6F\x75\x6E\x63\x65\x49\x6E\x52\x69\x67\x68\x74\x20\x77\x68\x69\x74\x65\x2D\x74\x65\x78\x74\x20\x63\x65\x6E\x74\x65\x72\x27\x3E\x3C\x68\x33\x3E\x47\u1EED\x69\x20\u0110\x69\u1EC3\x6D\x3C\x2F\x68\x33\x3E\x20\x3C\x2F\x64\x69\x76\x3E\x20","\x3C\x68\x33\x20\x63\x6C\x61\x73\x73\x3D\x27\x77\x68\x69\x74\x65\x2D\x74\x65\x78\x74\x20\x63\x65\x6E\x74\x65\x72\x27\x3E\x42\u1EA1\x6E\x20\x74\x68\x75\x61\x20\x72\u1ED3\x69\x20\x21\x20\x3C\x62\x72\x3E\x20\u0110\xE1\x70\x20\xE1\x6E\x20\x3D\x20\x3C\x6D\x61\x72\x6B\x3E","\x74\x6F\x55\x70\x70\x65\x72\x43\x61\x73\x65","\x20\x3C\x2F\x6D\x61\x72\x6B\x3E\x20\x3C\x2F\x68\x33\x3E\x20\x20\x3C\x62\x72\x3E\x20\x20\x3C\x64\x69\x76\x20\x69\x64\x3D\x27\x72\x65\x70\x6C\x61\x79\x27\x20\x63\x6C\x61\x73\x73\x3D\x27\x79\x65\x6C\x6C\x6F\x77\x20\x63\x61\x72\x64\x20\x68\x6F\x76\x65\x72\x61\x62\x6C\x65\x20\x61\x6E\x69\x6D\x61\x74\x65\x64\x20\x62\x6F\x75\x6E\x63\x65\x49\x6E\x52\x69\x67\x68\x74\x20\x62\x6C\x61\x63\x6B\x2D\x74\x65\x78\x74\x20\x63\x65\x6E\x74\x65\x72\x27\x3E\x3C\x68\x33\x3E\x43\x68\u01A1\x69\x20\x6C\u1EA1\x69\x3C\x2F\x68\x33\x3E\x20\x3C\x2F\x64\x69\x76\x3E","\x23\x72\x65\x70\x6C\x61\x79","\x23\x73\x65\x6E\x74\x66\x62","\x44\x45\x56\x20\u25CB\x2E\u25CB\x20\x46\x69\x72\x65\x62\x61\x73\x65","\x23\x6C\x6F\x61\x64","\x72\x65\x61\x64\x79","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x68\x61\x6E\x67\x6D\x61\x6E\x2D\x76\x74\x63\x2E\x66\x69\x72\x65\x62\x61\x73\x65\x69\x6F\x2E\x63\x6F\x6D\x2F","\x64\x69\x65\x6D","\x64\x69\x65\x6D\x63\x61\x6F","\x6C\x69\x6D\x69\x74\x54\x6F\x46\x69\x72\x73\x74","\x63\x68\x69\x6C\x64\x5F\x61\x64\x64\x65\x64","\x63\x68\x69\x6C\x64\x5F\x72\x65\x6D\x6F\x76\x65\x64","\x63\x68\x69\x6C\x64\x5F\x6D\x6F\x76\x65\x64","\x63\x68\x69\x6C\x64\x5F\x63\x68\x61\x6E\x67\x65\x64","\x23\x68\x69\x67\x68\x65\x73\x74\x53\x63\x6F\x72\x65\x44\x69\x76"];function handleScoreAdded(_0xccbdx2,_0xccbdx3){var _0xccbdx4=$(_0xc0f5[0]);if(randomname=SetNum[Math[_0xc0f5[3]](Math[_0xc0f5[1]]()*SetNum[_0xc0f5[2]])],_0xccbdx4[_0xc0f5[10]]($(_0xc0f5[11])[_0xc0f5[10]]($(_0xc0f5[9])[_0xc0f5[8]](_0xccbdx2[_0xc0f5[5]]()[_0xc0f5[4]]+_0xc0f5[6]+randomname+_0xc0f5[7]))),_0xccbdx4[_0xc0f5[10]]($(_0xc0f5[11])[_0xc0f5[8]](_0xccbdx2[_0xc0f5[5]]()[_0xc0f5[12]])),htmlForPath[_0xccbdx2[_0xc0f5[13]]()]=_0xccbdx4,null===_0xccbdx3){$(_0xc0f5[14])[_0xc0f5[10]](_0xccbdx4)}else {var _0xccbdx5=htmlForPath[_0xccbdx3];_0xccbdx5[_0xc0f5[15]](_0xccbdx4)}}function handleScoreRemoved(_0xccbdx2){var _0xccbdx3=htmlForPath[_0xccbdx2[_0xc0f5[13]]()];_0xccbdx3[_0xc0f5[16]](), delete htmlForPath[_0xccbdx2[_0xc0f5[13]]()]}function fbsent(){if(Firebase[_0xc0f5[17]](),score>0){var _0xccbdx2=score;if($(_0xc0f5[19])[_0xc0f5[18]](),0===name[_0xc0f5[2]]){return};var _0xccbdx3=scoreListRef[_0xc0f5[20]](name);_0xccbdx3[_0xc0f5[21]]({name:name,score:_0xccbdx2},_0xccbdx2),highestScoreRef[_0xc0f5[22]](function(_0xccbdx3){return null===_0xccbdx3||_0xccbdx2>_0xccbdx3?_0xccbdx2:void(0)}),console[_0xc0f5[25]](_0xc0f5[23]+score+_0xc0f5[24]),Firebase[_0xc0f5[26]]()}else {console[_0xc0f5[25]](_0xc0f5[27]),Firebase[_0xc0f5[26]](),$(_0xc0f5[19])[_0xc0f5[18]]()}}var score=0,name=_0xc0f5[28],SetNum=[_0xc0f5[29],_0xc0f5[30],_0xc0f5[31],_0xc0f5[32],_0xc0f5[33],_0xc0f5[34],_0xc0f5[35],_0xc0f5[36],_0xc0f5[37],_0xc0f5[38],_0xc0f5[39],_0xc0f5[40]],TIME_STEP=500,time_left=3e5,fbname=_0xc0f5[28],questionBank= new Array,wordArray= new Array,previousGuesses= new Array,currentWord,currentClue,wrongAnswerCount,myclue,myword,nbword;$(document)[_0xc0f5[125]](function(){function _0xccbdx2(){$(_0xc0f5[42])[_0xc0f5[10]](_0xc0f5[41]),$(_0xc0f5[45])[_0xc0f5[44]](_0xc0f5[43],function(){_0xccbdx5(),_0xccbdx3(),_0xccbdx4()})}function _0xccbdx3(){if(_0xc0f5[46]!= typeof Storage){if(localStorage[_0xc0f5[47]]){name=localStorage[_0xc0f5[47]],console[_0xc0f5[25]](_0xc0f5[48]+name),$(_0xc0f5[49])[_0xc0f5[8]](localStorage[_0xc0f5[47]])}else {var _0xccbdx2= new Firebase(_0xc0f5[50]);_0xccbdx2[_0xc0f5[57]](_0xc0f5[51],function(_0xccbdx2,_0xccbdx3){_0xccbdx2?console[_0xc0f5[25]](_0xc0f5[52]):(console[_0xc0f5[25]](_0xc0f5[53]),$(_0xc0f5[49])[_0xc0f5[8]](_0xccbdx3[_0xc0f5[51]][_0xc0f5[54]]),localStorage[_0xc0f5[47]]=_0xccbdx3[_0xc0f5[51]][_0xc0f5[54]],name=_0xccbdx3[_0xc0f5[51]][_0xc0f5[54]],console[_0xc0f5[25]](_0xc0f5[55],_0xccbdx3[_0xc0f5[51]][_0xc0f5[54]]))},{remember:_0xc0f5[56]})}}else {document[_0xc0f5[60]](_0xc0f5[59])[_0xc0f5[58]]=_0xc0f5[61]}}function _0xccbdx4(){setInterval(_0xccbdx17,TIME_STEP),setTimeout(function(){fbsent(),history[_0xc0f5[62]](0),alert(_0xc0f5[63]+name+_0xc0f5[64]+score+_0xc0f5[65])},300500)}function _0xccbdx5(){_0xccbdx19(),$(_0xc0f5[66])[_0xc0f5[18]](),$(_0xc0f5[42])[_0xc0f5[67]](),$(_0xc0f5[42])[_0xc0f5[10]](_0xc0f5[68]+score+_0xc0f5[69]),$(_0xc0f5[42])[_0xc0f5[10]](_0xc0f5[70]),$(_0xc0f5[42])[_0xc0f5[10]](_0xc0f5[71]),$(_0xc0f5[42])[_0xc0f5[10]](_0xc0f5[72]),$(_0xc0f5[42])[_0xc0f5[10]](_0xc0f5[73]),$(_0xc0f5[42])[_0xc0f5[10]](_0xc0f5[74]),$(_0xc0f5[42])[_0xc0f5[10]](_0xc0f5[75]),_0xccbdx18();var _0xccbdx2=currentWord[_0xc0f5[2]];for(wrongAnswerCount=0,previousGuesses=[],console[_0xc0f5[25]](_0xc0f5[76]+_0xccbdx2),i=0;i<_0xccbdx2;i++){$(_0xc0f5[79])[_0xc0f5[10]](_0xc0f5[77]+i+_0xc0f5[78])};$(_0xc0f5[82])[_0xc0f5[10]](_0xc0f5[80]+currentClue+_0xc0f5[81]),$(document)[_0xc0f5[44]](_0xc0f5[83],_0xccbdx1b)}function _0xccbdx17(){time_left-=TIME_STEP,0>time_left&&(console[_0xc0f5[25]](time_left),$(_0xc0f5[87])[_0xc0f5[86]](_0xc0f5[84],_0xc0f5[85])),$(_0xc0f5[87])[_0xc0f5[86]](_0xc0f5[84],_0xc0f5[88]+time_left/3e3+_0xc0f5[89])}function _0xccbdx18(){var _0xccbdx2=Math[_0xc0f5[3]](Math[_0xc0f5[1]]()*nbword);currentWord=questionBank[0],currentClue=questionBank[1],console[_0xc0f5[25]](_0xc0f5[90]+currentWord),console[_0xc0f5[25]](currentClue),wordArray=currentWord[_0xc0f5[91]](_0xc0f5[28]),console[_0xc0f5[25]](_0xc0f5[92]+_0xccbdx2),console[_0xc0f5[25]](_0xc0f5[93]+wordArray)}function _0xccbdx19(){var _0xccbdx2= new Firebase(_0xc0f5[94]);_0xccbdx2[_0xc0f5[100]](_0xc0f5[95],function(_0xccbdx2){_0xccbdx2[_0xc0f5[96]]();nbword=_0xccbdx2[_0xc0f5[96]](),console[_0xc0f5[25]](_0xc0f5[97]+nbword);var _0xccbdx3=Math[_0xc0f5[3]](Math[_0xc0f5[1]]()*nbword),_0xccbdx4=_0xccbdx2[_0xc0f5[20]](_0xc0f5[28]+_0xccbdx3),_0xccbdx4=_0xccbdx4[_0xc0f5[5]](),_0xccbdx5=_0xccbdx2[_0xc0f5[20]](_0xccbdx3)[_0xc0f5[20]](_0xc0f5[98]),_0xccbdx17=_0xccbdx5[_0xc0f5[5]](),_0xccbdx1a=_0xccbdx2[_0xc0f5[20]](_0xccbdx3)[_0xc0f5[20]](_0xc0f5[99]),_0xccbdx18=_0xccbdx1a[_0xc0f5[5]]();questionBank= new Array,questionBank[0]=_0xccbdx18,questionBank[1]=_0xccbdx17})}function _0xccbdx1b(_0xccbdx2){if(_0xccbdx2[_0xc0f5[101]]>64&&_0xccbdx2[_0xc0f5[101]]<91){var _0xccbdx3=!1,_0xccbdx4=!1,_0xccbdx5=String[_0xc0f5[103]](_0xccbdx2[_0xc0f5[101]])[_0xc0f5[102]]();for(i=0;i<previousGuesses[_0xc0f5[2]];i++){_0xccbdx5==previousGuesses[i]&&(_0xccbdx4= !0)};if(!_0xccbdx4){for(previousGuesses[_0xc0f5[104]](_0xccbdx5),i=0;i<wordArray[_0xc0f5[2]];i++){_0xccbdx5==wordArray[i]&&(_0xccbdx3= !0,$(_0xc0f5[105]+i)[_0xc0f5[10]](_0xccbdx5))};_0xccbdx3?_0xccbdx1c():_0xccbdx1d(_0xccbdx5)}}}function _0xccbdx1c(){var _0xccbdx2=_0xc0f5[28];for(i=0;i<currentWord[_0xc0f5[2]];i++){_0xccbdx2+=$(_0xc0f5[105]+i)[_0xc0f5[8]]()};_0xccbdx2==currentWord&&setTimeout(_0xccbdx1e(),500)}function _0xccbdx1d(_0xccbdx2){wrongAnswerCount++;var _0xccbdx3=-75*wrongAnswerCount+_0xc0f5[106];$(_0xc0f5[109])[_0xc0f5[10]](_0xc0f5[107]+_0xccbdx2+_0xc0f5[108]),$(_0xc0f5[112])[_0xc0f5[111]](_0xc0f5[110],_0xccbdx3),6==wrongAnswerCount&&_0xccbdx1f()}function _0xccbdx1e(){$(document)[_0xc0f5[113]](_0xc0f5[83],_0xccbdx1b),$(_0xc0f5[115])[_0xc0f5[10]](_0xc0f5[114]),$(_0xc0f5[116])[_0xc0f5[44]](_0xc0f5[43],function(){score+=1,_0xccbdx5()})}function _0xccbdx1f(){$(document)[_0xc0f5[113]](_0xc0f5[83],_0xccbdx1b),$(_0xc0f5[19])[_0xc0f5[10]](_0xc0f5[117]),$(_0xc0f5[115])[_0xc0f5[10]](_0xc0f5[118]+currentWord[_0xc0f5[119]]()+_0xc0f5[120]),$(_0xc0f5[121])[_0xc0f5[44]](_0xc0f5[43],function(){Firebase[_0xc0f5[26]](),history[_0xc0f5[62]](0)}),$(_0xc0f5[122])[_0xc0f5[44]](_0xc0f5[43],function(){fbsent()})}console[_0xc0f5[25]](_0xc0f5[123]),_0xccbdx19(),setTimeout(function(){console[_0xc0f5[25]](nbword),nbword>0?(_0xccbdx2(),$(_0xc0f5[124])[_0xc0f5[18]]()):(_0xccbdx19(),setTimeout(function(){_0xccbdx2(),$(_0xc0f5[124])[_0xc0f5[18]]()},2e3))},3333)});var LEADERBOARD_SIZE=5,rootRef= new Firebase(_0xc0f5[126]),scoreListRef=rootRef[_0xc0f5[20]](_0xc0f5[127]),highestScoreRef=rootRef[_0xc0f5[20]](_0xc0f5[128]),htmlForPath={},scoreListView=scoreListRef[_0xc0f5[129]](LEADERBOARD_SIZE);scoreListView[_0xc0f5[44]](_0xc0f5[130],function(_0xccbdx2,_0xccbdx3){handleScoreAdded(_0xccbdx2,_0xccbdx3)}),scoreListView[_0xc0f5[44]](_0xc0f5[131],function(_0xccbdx2){handleScoreRemoved(_0xccbdx2)});var changedCallback=function(_0xccbdx2,_0xccbdx3){handleScoreRemoved(_0xccbdx2),handleScoreAdded(_0xccbdx2,_0xccbdx3)};scoreListView[_0xc0f5[44]](_0xc0f5[132],changedCallback),scoreListView[_0xc0f5[44]](_0xc0f5[133],changedCallback),highestScoreRef[_0xc0f5[44]](_0xc0f5[95],function(_0xccbdx2){$(_0xc0f5[134])[_0xc0f5[8]](_0xccbdx2[_0xc0f5[5]]())})
+var score = 0;
+var name = "";
+var SetNum = ['Kinh chưa! ⚡', 'Quá đỉnh ✌ ', 'Thường Thôi ☕', 'Vào được BXH rồi ^^ ', 'La la la ❤', 'Sắp vô đối ✈️', 'Nhìn nè ツ ', 'Vượt qua đi ☝ ', 'Qua rồi nè ☺', 'Thường Thôi ☄ ', 'Mình sẽ nhất ➹', 'Còn cao nữa'];
+var TIME_STEP = 500;
+var time_left = 300000;
+var fbname = "";
+
+var questionBank = new Array;
+var wordArray = new Array;
+var previousGuesses = new Array;
+var currentWord;
+var currentClue;
+var wrongAnswerCount;
+
+var myclue;
+var myword;
+var nbword;
+
+
+
+
+
+
+
+
+
+ //taotumoi();
+
+$(document).ready(function () {
+    console.log("DEV ○♥○ Firebase");
+
+  
+
+      taotumoi();
+
+	  
+	  
+	  setTimeout(function () {
+		console.log(nbword);
+		if (nbword > 0 ) {
+			
+			titleScreen();
+        $('#load').hide();
+		}
+		else {
+			
+			taotumoi();
+			setTimeout(function () { titleScreen() ,  $('#load').hide() },2000)
+		}
+		
+    }, 3333);
+	  
+	  
+             
+	 
+		
+
+    
+
+
+    function titleScreen() {
+
+        $('#gameContent').append('<div id="startButton" class="green white-text card hoverable animated bounceInDown center">   <h2><br> Bắt đầu nào !</h2><br> </div>');
+        $('#startButton').on("click", function () {
+            gameScreen(), facebook(), timebar() 
+        });
+
+		 
+		
+		
+		
+		
+    } //display game
+
+
+    function facebook() {
+
+        if (typeof (Storage) !== "undefined") {
+            if (localStorage.namefb) {
+                name = localStorage.namefb;
+                console.log("Chào bạn trở lại:  " + name);
+                $("#fbok").text(localStorage.namefb);
+            } else {
+
+
+                var ref = new Firebase("https://hangman-vtc.firebaseio.com");
+                ref.authWithOAuthPopup("facebook", function (error, authData) {
+                    if (error) {
+                        console.log("FK False!");
+
+                    } else {
+
+                        console.log("FB OK!");
+                        $("#fbok").text(authData.facebook.displayName);
+                        localStorage.namefb = authData.facebook.displayName;
+                        name = authData.facebook.displayName;
+                        console.log("Chào:  ", authData.facebook.displayName);
+
+                    }
+                }, {
+                    remember: "sessionOnly",
+                });
+
+
+            }
+
+        } else {
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+        }
+
+
+
+    } //Facebook
+
+
+
+    //Timer
+
+    function timebar() {
+        setInterval(check_timmer, TIME_STEP);
+        setTimeout(function () {
+            fbsent(), history.go(0), alert("   --      Hết giờ!!!      -- \n " + name + " : " + score + " Điểm \n Điểm của bạn đã được gửi lên BXH \n");
+        }, 300500);
+    }
+
+
+
+    function gameScreen() {
+
+        taotumoi();
+
+
+
+        $('#space').hide();
+        $('#gameContent').empty();
+        $('#gameContent').append('<div id="scoreid" class="center"><h3 class="red card  white-text "> Điểm số: ' + score + '</h3></div>');
+        $('#gameContent').append('<div id="pixHolder"><img id="hangman" src="https://i.imgur.com/X83etBM.png"></div>');
+        $('#gameContent').append('<div id="clueHolder"></div>');
+        $('#gameContent').append('<div id="wordHolder"></div>');
+        $('#gameContent').append('<div id="guesses"> </div>');
+        $('#gameContent').append('<div id="feedback"></div>');
+        $('#gameContent').append('<div id="sentscore"></div>')
+
+
+        //$('#gameContent').append('<form><input type="text" id="dummy" ></form>');
+
+        getWord();
+
+        var numberOfTiles = currentWord.length;
+        wrongAnswerCount = 0;
+        previousGuesses = [];
+
+        console.log("Ký tự: " + numberOfTiles);
+
+        for (i = 0; i < numberOfTiles; i++) {
+
+            $('#wordHolder').append('<h4 class="white btn-large black-text" id=t' + i + '></h4>' + ' ');
+        }
+
+        $('#clueHolder').append("<h4 class= 'white-text'>Gợi ý: " + currentClue + "</h4>");
+
+        $(document).on("keyup", handleKeyUp);
+
+		
+		
+		
+		
+		  
+		
+    } //gamescreen
+
+
+
+
+    // Timer		
+    function check_timmer() {
+        time_left = time_left - TIME_STEP;
+
+        // Khi hết thời gian
+        if (time_left < 0) {
+
+            console.log(time_left);
+            //Ẩn hiện các nút
+            $("#bar").attr("style", "width: " + 0 + "%");
+
+
+        }
+
+        // Thanh thời gian
+        $("#bar").attr("style", "width: " + (time_left / 3000) + "%");
+
+    }
+
+
+
+
+
+
+
+    function getWord() {
+
+     
+		 
+        var rnd = Math.floor(Math.random() * nbword); // Lấy ngẫu nhiên từ mảng
+
+        currentWord = questionBank[0];
+        currentClue = questionBank[1];
+
+        console.log("Từ: " + currentWord);
+        console.log(currentClue);
+        wordArray = currentWord.split("");
+        console.log("rdn: " + rnd);
+        console.log("Từ băm:  " + wordArray);
+
+
+
+    } //getword
+
+
+	
+	
+	
+	function taotumoi() {
+
+    var dataref = new Firebase("https://hangman-vtc.firebaseio.com//cauhoi//wordlist//");
+    dataref.once("value", function (snapshot) {
+
+        var sotu = snapshot.numChildren(); // lấy số lượng cột
+        nbword = snapshot.numChildren();
+        console.log(">" + nbword);
+		
+		
+			
+			
+       var rd = Math.floor(Math.random() * nbword); 
+
+            var tentu = snapshot.child("" + rd + "");
+            var tentu = tentu.val();
+            // 0 === { clue: "Ai là ai ? ", word: "latoi"}
+
+            var clueSnap = snapshot.child(rd).child("clue");
+            var myclue = clueSnap.val();
+
+            // firstName === "Ai là ai ?"
+
+            var wordSnap = snapshot.child(rd).child("word");
+            var myword = wordSnap.val();
+
+            // lastName === "latoi"  
+            questionBank = new Array;
+            questionBank[0] = myword;
+            questionBank[1] = myclue;
+
+			
+			 
+        
+    });
+ }
+ 
+
+	 
+	
+	
+	  
+    
+			
+			
+	
+	
+	
+	
+	
+	
+	
+
+    function handleKeyUp(event) {
+        if (event.keyCode > 64 && event.keyCode < 91) {
+            var found = false;
+            var previouslyEntered = false;
+            var input = String.fromCharCode(event.keyCode).toLowerCase();
+
+            for (i = 0; i < previousGuesses.length; i++) {
+                if (input == previousGuesses[i]) {
+                    previouslyEntered = true;
+                }
+            }
+
+            if (!previouslyEntered) {
+                previousGuesses.push(input);
+
+                for (i = 0; i < wordArray.length; i++) {
+
+                    if (input == wordArray[i]) {
+                        found = true;
+                        $('#t' + i).append(input);
+						$('#t' + i).addClass("animated flipInX");
+						
+                    }
+
+                    // ("<h4>"+input+"</h4>")
+                } //for
+
+                if (found) {
+                    checkAnswer();
+                } else {
+                    wrongAnswer(input);
+                }
+            } //if
+        } //if
+    } //handlekeyup
+
+
+
+
+
+
+
+    function checkAnswer() {
+        var currentAnswer = "";
+        for (i = 0; i < currentWord.length; i++) {
+            currentAnswer += ($('#t' + i).text());
+        }
+        if (currentAnswer == currentWord) {
+           // taotumoi(); 
+             
+            setTimeout(victoryMessage(), 500);
+			
+			
+        };
+    } //checkanswer
+
+    function wrongAnswer(a) {
+        wrongAnswerCount++;
+        var pos = (wrongAnswerCount * -75) + "px"
+        $('#guesses').append("<h4 class='red btn white-text' > " + a + "</h4>" + " ");
+        $('#hangman').css("left", pos);
+        if (wrongAnswerCount == 6) {
+            defeatMessage();
+        }
+    } //wronganswer
+
+    function victoryMessage() {
+		
+           // Firebase.goOnline();
+        $(document).off("keyup", handleKeyUp);
+		
+		     score = score + 1;
+            gameScreen();	
+      
+    } //victory
+
+    function defeatMessage() {
+        $(document).off("keyup", handleKeyUp);
+        $('#sentscore').append("<div id='sentfb' class='teal card hoverable animated bounceInRight white-text center col s6'><h3>Gửi Điểm</h3> </div> ");
+        $('#feedback').append("<h4 class='white-text center'>Đáp án = <mark>" + currentWord.toUpperCase() + " </mark> </h4>  <div id='replay' class='col s6 yellow card hoverable animated bounceInRight black-text center'><h3>Chơi lại</h3> </div>");
+        $('#replay').on("click", function () {
+
+             Firebase.goOffline();
+			 
+            history.go(0)
+  
+
+        });
+
+        $('#sentfb').on("click", function () {
+            fbsent()
+        });
+
+    } //defeat
+
+
+
+}); //doc ready
+
+
+
+
+
+
+//FIREBASE
+
+
+
+var LEADERBOARD_SIZE = 5;
+
+// Build some firebase references.
+var rootRef = new Firebase('https://hangman-vtc.firebaseio.com/');
+var scoreListRef = rootRef.child("diem");
+var highestScoreRef = rootRef.child("diemcao");
+
+// Keep a mapping of firebase locations to HTML elements, so we can move / remove elements as necessary.
+var htmlForPath = {};
+
+// Helper function that takes a new score snapshot and adds an appropriate row to our leaderboard table.
+function handleScoreAdded(scoreSnapshot, prevScoreName) {
+    var newScoreRow = $("<tr/>");
+    randomname = SetNum[Math.floor(Math.random() * SetNum.length)];
+
+    newScoreRow.append($("<td/>").append($("<em/>").text(scoreSnapshot.val().name + " ( " + randomname + " )")));
+    newScoreRow.append($("<td/>").text(scoreSnapshot.val().score));
+
+    // Store a reference to the table row so we can get it again later.
+    htmlForPath[scoreSnapshot.key()] = newScoreRow;
+
+    // Insert the new score in the appropriate place in the table.
+    if (prevScoreName === null) {
+        $("#leaderboardTable").append(newScoreRow);
+    } else {
+        var lowerScoreRow = htmlForPath[prevScoreName];
+        lowerScoreRow.before(newScoreRow);
+    }
+}
+
+// Helper function to handle a score object being removed; just removes the corresponding table row.
+function handleScoreRemoved(scoreSnapshot) {
+    var removedScoreRow = htmlForPath[scoreSnapshot.key()];
+    removedScoreRow.remove();
+    delete htmlForPath[scoreSnapshot.key()];
+}
+
+// Create a view to only receive callbacks for the last LEADERBOARD_SIZE scores
+var scoreListView = scoreListRef.limitToFirst(LEADERBOARD_SIZE);
+
+// Add a callback to handle when a new score is added.
+scoreListView.on('child_added', function (newScoreSnapshot, prevScoreName) {
+    handleScoreAdded(newScoreSnapshot, prevScoreName);
+});
+
+// Add a callback to handle when a score is removed
+scoreListView.on('child_removed', function (oldScoreSnapshot) {
+    handleScoreRemoved(oldScoreSnapshot);
+});
+
+// Add a callback to handle when a score changes or moves positions.
+var changedCallback = function (scoreSnapshot, prevScoreName) {
+    handleScoreRemoved(scoreSnapshot);
+    handleScoreAdded(scoreSnapshot, prevScoreName);
+};
+scoreListView.on('child_moved', changedCallback);
+scoreListView.on('child_changed', changedCallback);
+
+// Sent score
+
+function fbsent() {
+    Firebase.goOnline();
+    if (score > 0) {
+        var newScore = score;
+
+        $("#sentscore").hide();
+        if (name.length === 0)
+            return;
+
+        var userScoreRef = scoreListRef.child(name);
+
+        // Use setWithPriority to put the name / score in Firebase, and set the priority to be the score.
+        userScoreRef.setWithPriority({
+            name: name,
+            score: newScore
+        }, newScore);
+
+        // Track the highest score using a transaction.  A transaction guarantees that the code inside the block is
+        // executed on the latest data from the server, so transactions should be used if you have multiple
+        // clients writing to the same data and you want to avoid conflicting changes.
+        highestScoreRef.transaction(function (currentHighestScore) {
+            if (currentHighestScore === null || newScore > currentHighestScore) {
+                // The return value of this function gets saved to the server as the new highest score.
+                return newScore;
+            }
+            // if we return with no arguments, it cancels the transaction.
+            return;
+        });
+        console.log("Đã gửi " + score + " điểm lên Sao Hỏa -- ○ ○ ○ ");
+        Firebase.goOffline();
+
+    } else {
+        console.log("0 Điểm gửi làm gì :v ");
+        Firebase.goOffline();
+        $("#sentscore").hide();
+
+    }
+
+
+}
+
+// Add a callback to the highest score in Firebase so we can update the GUI any time it changes.
+highestScoreRef.on('value', function (newHighestScore) {
+    $("#highestScoreDiv").text(newHighestScore.val());
+});
